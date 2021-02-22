@@ -40,6 +40,8 @@ That's it!.
 
 ## Running it locally by using flask
 
+1. Install a virtual environment with a similar command: `python3.8 -m venv /<YOUR ABSOLUTE PATH>/MASGlobal-employees-api/venv`
+
 1. Modify the file `/<YOUR ABSOLUTE PATH>/MASGlobal-employees-api/deployment/conf/local/app_path.yaml` and modify value of the key `app_path_folder` 
 with the value: `/<YOUR ABSOLUTE PATH>/MASGlobal-empoyees-api`
 
