@@ -1,0 +1,4 @@
+log_config_file: "{{app_path_folder}}/deployment/conf/{{environment}}"
+logs_path: "{{app_path_folder}}/logs"
+
+masglobal_employees_api: "this url will be replaced with the deploy environment"

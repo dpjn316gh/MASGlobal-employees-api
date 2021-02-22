@@ -1,0 +1,3 @@
+environment: "local"
+# Set the absolute path of the application.
+app_path_folder: "/home/jorge/PycharmProjects/MASGlobal-employees-api"

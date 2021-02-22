@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MASGlobal employees form</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="jumbotron text-center">
+            <img alt="" class="img-fluid" src="https://masglobalconsulting.com/assets/img/LogoMasGlobalHeader.png">
+            <p>Prueba para el cargo de desarrollador Python</p>
+            <p>Jorge Porras</p>
+        </div>
+
+        <div class="container">
+            <div class="form-group">
+                <h1>Employees module</h1>
+                <label for="email">Employee id:</label>
+                <input class="allow-numeric" id="employee_id" type="text">
+                <button class="btn btn-default" id="get-employee">Get employees</button>
+            </div>
+            <table class="table table-striped table-bordered " id="datatable">
+                <thead>
+                    <tr>
+                        <th>Employee ID</th>
+                        <th>Name</th>
+                        <th>Role ID</th>
+                        <th>Rome Name</th>
+                        <th>Role Description</th>
+                        <th>Monthly Salary</th>
+                        <th>Hourly Salary</th>
+                        <th>Contract type name</th>
+                        <th>Annual Salary</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

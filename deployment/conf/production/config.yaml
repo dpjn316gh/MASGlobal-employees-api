@@ -1,0 +1,2 @@
+masglobal_employees_api: "http://masglobaltestapi.azurewebsites.net/api"
+masglobal_employees_api_timeout: "60"
